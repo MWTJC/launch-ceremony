@@ -33,6 +33,10 @@
 
 ## 效果预览
 
+总览：
+
+![总览](docs/output.gif)
+
 | ① 待机 | ② 3D 倒计时 |
 |---|---|
 | ![待机](docs/1-standby.jpg) | ![倒计时](docs/2-countdown.jpg) |
