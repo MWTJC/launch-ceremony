@@ -1,0 +1,22 @@
+# 现场交付用的全分辨率预览图（仓库内已用 docs/*.jpg 压缩版展示）
+preview-*.png
+
+# 早期美术方向的第三方参考网图，不入库（避免版权问题）
+img_example/
+
+# 系统 / 编辑器杂项
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+*.tmp
+.vscode/
+.idea/
+
+# kiosk 启动时生成的临时浏览器配置目录
+_browser_profile/
+chrome-profile/
+
+# 本地零散素材 / 临时代码草稿
+bgm/[[]SHANA[]]*
+*.txt

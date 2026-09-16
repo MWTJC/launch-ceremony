@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>启动仪式 · 星辰大海</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="hidecursor idle">
+<div id="stage">
+  <canvas id="cv"></canvas>
+
+  <div class="titleWrap">
+    <h1 id="t1">××项目启动仪式</h1>
+    <div class="sub" id="t2">PROJECT LAUNCH CEREMONY</div>
+  </div>
+
+  <div id="guideText">请将手掌轻置于光圈之上</div>
+
+  <div id="hint">
+    <b>空格 / 翻页笔</b> 推进　<b>R</b> 复位　<b>1-8</b> 光圈数量　<b>T</b> 定位辅助（可拖动）
+    <b>Ctrl+滚轮</b> 光圈　<b>Shift+滚轮</b> 手掌高度线　<b>Alt+滚轮</b> 间距　<b>Ctrl+Alt+滚轮</b> 标题基线　<b>Shift+Alt+滚轮</b> 快门(拖尾)
+    <b>E</b> 改主标题　<b>Shift+E</b> 改副标题　<b>换主题色</b> 网址加 ?theme=gold/?hue=42/?brand=228,0,43　<b>Shift+R</b> 恢复出厂　<b>C</b> 导出参数　<b>M</b> 静音　<b>L</b> BGM循环　<b>P</b> 性能　<b>H</b> 隐藏本条
+  </div>
+
+  <div id="toast"></div>
+  <div id="cfgbox"></div>
+  <div id="audioWarn">音频未能自动播放：请先用鼠标点一下画面，再按空格</div>
+</div>
+
+<audio id="bgm" src="bgm/victory.mp3" preload="auto"></audio>
+<script src="app.js"></script>
+</body>
+</html>
